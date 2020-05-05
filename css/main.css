@@ -1,0 +1,166 @@
+headings: font-family: 'Rubik', sans-serif;
+body: font-family: 'Karla', sans-serif;
+
+
+
+/*******BASE STYLES*****/
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+}
+
+/********GRID********/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 300px;
+  float: left;
+}
+
+/********HEADER*********/
+header {
+  height: 800px;
+  background: url('../img/hero.jpg');
+  background-size: cover;
+}
+
+header h1{
+  font-size: 60px;
+  font-family: 'Rubik', sans-serif;
+  color: #DDA15E;
+  text-align: left;
+  padding-top: 325px;
+  font-weight: bold;
+}
+
+header h2{
+  font-size:48px;
+  font-family: 'Rubik', sans-serif;
+  color: #FEFAE0;
+  text-align: left;
+  font-weight: normal;
+  padding-top: 50px;
+}
+
+/********WORK*********/
+
+#work {
+  height: 1450px;
+}
+
+#work .full-width h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 36px;
+  color: #646F4B;
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+#work .half-width .block {
+  height: 350px;
+  padding: 30px;
+  display: inline-block;
+}
+
+#work .half-width .block .picture {
+  width: 550px;
+  border: 1px solid #b7b7b7;
+}
+
+
+#work .half-width .block p {
+  margin-top: 0px;
+  font-weight: normal;
+  color: #646F4B;
+  vertical-align: top;
+}
+
+
+/********ABOUT*********/
+
+#about {
+  height: 650px;
+  background-color: #646F4B;
+}
+
+#about .full-width h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #FEFAE0;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#about .half-width {
+  display: inline-block;
+}
+
+#about .half-width p {
+  color: #FEFAE0;
+  padding-left: 30px;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+/********FOOTER*********/
+footer {
+  height: 400px;
+  background-color: #283618;
+  color: #FEFAE0;
+}
+
+footer .full-width h3 {
+  font-size: 36px;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer .third-width {
+  display: inline-block;
+  padding: 30px;
+  padding-left: 55px;
+  text-align: center;
+}
+
+footer .third-width h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer .third-width p {
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+}
+footer .third-width a {
+  text-decoration: none;
+  color: #FEFAE0;
+  font-size: 22px;
+}
+
+footer .image {
+  text-align: center;
+}
+
+footer .full-width h5 {
+  clear: both;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 30px;
+}
