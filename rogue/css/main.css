@@ -1,0 +1,166 @@
+/*******BASE STYLES*****/
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+  font-family: wisdom;
+  src: url('../fonts/wisdom.otf') format('opentype');
+}
+
+/********GRID********/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.top, .bottom, footer {
+    margin: 0 auto;
+}
+
+.bottom-one, .bottom-two, .bottom-three {
+  width: 395px;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  border-top: 2px solid #eee;
+}
+
+/********HEADER********/
+header {
+  height: 110px;
+  border-bottom: 3px solid #77a466;
+}
+
+header h1{
+  font-size: 30px;
+  color: #2b2b2b;
+  text-transform: uppercase;
+  float: left;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+nav{
+  float: right;
+  margin: 0 auto;
+  padding: 15px;
+  padding-top: 40px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+  padding-left: 40px;
+}
+
+/********TOP********/
+
+.hero-image {
+  width: auto;
+  float: left;
+}
+
+.hero-image img{
+  border-bottom: 3px solid #77a466;
+}
+
+.introduction-text {
+  clear: both;
+  padding: 5px;
+}
+
+.introduction-text h3 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.introduction-text p {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0;
+    text-align: left;
+}
+
+/***********BOTTOM*************/
+
+
+.bottom-one h4 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.bottom-two h4, .bottom-three h4{
+  color: black;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 30px;
+}
+
+ul.menu {
+  padding-inline-start: 0;
+}
+
+.menu li {
+  color: #77a466;
+  text-transform: none;
+  list-style: none;
+  padding-top: 10px;
+  padding-left: 0px;
+  font-weight: 400;
+  padding-inline-start: 0px;
+  font-size: 14px;
+}
+
+.bottom-two {
+  border-left: 2px solid #eee;
+  border-right: 2px solid #eee;
+}
+
+.reviews {
+  padding-left: 30px;
+  padding-right: 30px;
+  line-spacing: 25px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+.address{
+  padding-left: 30px;
+  line-spacing: 30px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/********FOOTER********/
+
+footer {
+  clear: both;
+  height: 60px;
+  text-align: center;
+  border-top: 2px solid #eee;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+footer h3 span {
+  color: #77a466;
+  font-family: 'wisdom';
+  text-transform: lowercase;
+}
