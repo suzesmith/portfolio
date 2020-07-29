@@ -183,3 +183,37 @@ footer .full-width h5 {
   padding-top: 30px;
   margin: 0 auto;
 }
+
+/********PORTFOLIO PAGE********/
+
+#title {
+  height: 150px;
+  background: url('../img/cropped.png');
+  background-size: cover;
+}
+
+#title h1 {
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+  color: #DDA15E;
+  padding: 65px 0 65px 25px;
+}
+
+
+#portfolio h2{
+  font-size: 24px;
+  text-align: center;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+#portfolio h2 a {
+  text-decoration: none;
+  color: #646F4B;
+}
+
+#portfolio img#example-image {
+  border: 5px solid black;
+  padding: 20px;
+  margin-left: 275px;
+}
